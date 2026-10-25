@@ -13,7 +13,8 @@ const songs = [
     { title: "Vomit On Paper", artist: "Danda Nyoliwala", cover: "images/vomit on paper.jpg", src: "songs/Vomit On Paper.mp3" },
     { title: "Up to you", artist: "Danda Nyoliwala", cover: "images/up to you.jpg", src: "songs/Up To You.mp3" },
     { title: "Chora baba ka", artist: "Danda Nyoliwala & Raftaar", cover: "images/chora baba ka.jpg", src: "songs/Chora baba ka.mp3" },
-    { title: "Do Numbari", artist: "Danda Nyoliwala", cover: "images/Do Numbari.jpg", src: "songs/Do Numbari.mp3" }
+    { title: "Do Numbari", artist: "Danda Nyoliwala", cover: "images/Do Numbari.jpg", src: "songs/Do Numbari.mp3" },
+    { title: "Tough", artist: "Krish Rao", cover: "images/Tough.jpg", src: "songs/Tough.mp3" }
 
 ];
 
