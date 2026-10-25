@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotifly</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#"><img src="spotify-icon.svg" alt="Spotify" class="logo"></a>
+        <a href="#"><img src="home-icon.jpg" alt="Home" class="home-icon"></a>
+        <div class="search-bar">
+            <a href="#"><img src="search-logo.png" alt="Search" class="search-icon"></a>
+            <input type="text" placeholder="What do you want to play?">
+            <a href="#"><img src="browse.svg" alt="All Songs" class="search-icon"></a>
+        </div>
+        <div class="nevigations">
+            <a href="#" class="navigation">Premium</a>
+            <a href="#" class="navigation">Support</a>
+            <a href="#" class="navigation">Download</a>
+        </div>
+
+        <a href="#" class="install-btn">
+            <svg class="install-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 7v9" />
+                <path d="M8 12.5l4 4 4-4" />
+            </svg>
+            Install App
+        </a>
+        <a href="#" class="sign-up-icon">Sign Up</a>
+        <a href="#" class="Login-icon">Log in</a>
+    </nav>
+    <div class="main_area">
+        <aside class="sidebar">
+            <div class="library-header">
+                <h2>Your Library</h2>
+                <button class="create-btn">+ Create</button>
+
+            </div>
+            <div class="create-browse-holder">
+                <div class="create-playlist">
+                    <h2>Create your first playlist</h2>
+                    <h5>It's easy, we'll help you</h5>
+                    <button class="create-playlist-btn">Create playlist</button>
+                </div>
+
+                <div class="browse-podcasts">
+                    <h2>Let's find some podcasts to follow</h2>
+                    <h5>We'll keep you updated on new episodes</h5>
+                    <button class="browse-podcasts-btn">Browse podcasts</button>
+                </div>
+            </div>
+            <div class="compliances">
+                <a href="#" class="compliance">Legal</a>
+                <a href="#" class="compliance">Safety & privacy center</a>
+                <a href="#" class="compliance">Privacy policy</a>
+                <a href="#" class="compliance">Cookies</a>
+                <a href="#" class="compliance">About us</a>
+                <a href="#" class="compliance">Accessibility</a>
+            </div>
+            <button class="language-change">
+                <svg class="globe-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M2 12h20" />
+                    <path d="M12 2a15 15 0 0 1 0 20" />
+                    <path d="M12 2a15 15 0 0 0 0 20" />
+                </svg>
+                <h2>English</h2>
+            </button>
+
+
+        </aside>
+        <main class="content">
+            <h2>Browse all</h2>
+            <div class="browse-title">
+
+            </div>
+            <footer class="player">
+
+                <div class="player-song">
+                    <img class="player-cover" src="">
+                    <div>
+                        <h4 id="player-title">No song playing</h4>
+                        <p id="player-artist"></p>
+                    </div>
+                </div>
+                <div class="player-controls">
+                    <div class="control-buttons">
+                        <button id="prev-btn" class="skip-btn">⏮</button>
+                        <button id="back-btn" class="skip-btn">⏪ 10</button>
+                        <button id="play-btn">▶</button>
+                        <button id="forward-btn" class="skip-btn">10 ⏩</button>
+                        <button id="next-btn" class="skip-btn">⏭</button>
+                    </div>
+                    <div class="progress">
+                        <span id="current-time">0:00</span>
+                        <input type="range" id="seek-bar" value="0" min="0" max="100">
+                        <span id="total-time">0:00</span>
+                    </div>
+                </div>
+
+            </footer>
+            <div class="volume">
+                <span class="volume-icon">🔊</span>
+                <input type="range" id="volume-bar" min="0" max="1" step="0.01" value="1">
+            </div>
+
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
